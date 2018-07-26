@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EventActivity"
+            android:name=".Event.EventActivity"
             android:label="@string/title_activity_events"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>

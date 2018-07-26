@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.view.View
+import io.crazyamigos.attendance.Event.EventActivity
 import kotlinx.android.synthetic.main.activity_login.*
 import okhttp3.FormBody
 import okhttp3.OkHttpClient
