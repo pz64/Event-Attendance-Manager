@@ -97,9 +97,6 @@ class LoginActivity : AppCompatActivity() {
 
                     }
 
-                    404 -> {
-
-                    }
                 }
 
             }
