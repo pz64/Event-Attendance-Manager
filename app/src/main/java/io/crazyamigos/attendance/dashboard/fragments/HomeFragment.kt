@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import io.crazyamigos.attendance.R
+import kotlinx.android.synthetic.main.home_fragment.*
 
 class HomeFragment : Fragment() {
 
@@ -17,7 +18,10 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
+        name.text = arguments!!.getString("name")
+        date.text = arguments!!.getString("date")
+        venue.text = arguments!!.getString("venue")
+        days.text = arguments!!.getString("days")
     }
 
 
